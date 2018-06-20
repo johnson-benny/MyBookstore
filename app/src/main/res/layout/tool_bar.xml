@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/toolbar_id"
+    android:elevation="30dp"
+    android:background="@color/colorAccent1">
+
+    <TextView
+        android:id="@+id/bookstore_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="Book Store"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent2"
+        android:layout_marginLeft="110dp"
+        />
+    <ImageView
+        android:id="@+id/cart_id"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/cart"
+
+        android:layout_marginLeft="40dp"
+        />
+    <ImageView
+        android:id="@+id/profile_id"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/profile"
+        android:layout_marginLeft="50dp"
+        />
+
+
+</android.support.v7.widget.Toolbar>

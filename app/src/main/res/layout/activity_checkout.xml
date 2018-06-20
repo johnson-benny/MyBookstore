@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".checkout">
+    
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/checkoutrv_id"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/total_id"
+        android:layout_below="@id/checkoutrv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estimated Total"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent1"/>
+    
+<TextView
+    android:id="@+id/totalrate_id"
+    android:layout_below="@id/checkoutrv_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="$440"
+    android:textSize="20sp"
+    android:layout_marginLeft="265dp"/>
+    
+
+    <Button
+    android:id="@+id/checkoutbutton_id"
+        android:layout_below="@id/total_id"
+    
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:text="Check Out"
+    android:textSize="25sp"
+    android:textColor="@color/colorwhite"
+    android:background="@color/colororange"/>
+</RelativeLayout>
